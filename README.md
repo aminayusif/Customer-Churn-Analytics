@@ -1,159 +1,103 @@
 📊 Revenue Risk Intelligence — Customer Churn Analytics
 
-EXECUTIVE SUMMARY
+🧾 Executive Summary
 
-Customer churn represents a direct threat to recurring revenue and long-term growth. This project analyzes customer behavior, contract structures, and revenue patterns to quantify financial exposure and identify high-risk segments.
+Customer churn represents a direct threat to recurring revenue and long-term growth.
 
-The dashboard is designed for executive stakeholders seeking clarity on churn drivers and actionable retention opportunities.
+This project analyzes customer behavior, contract structures, and revenue patterns to:
 
+Quantify financial exposure
+Identify high-risk segments
+Highlight actionable retention opportunities
 
-BUSINESS PROBLEM
+🎯 The dashboard is designed for executive stakeholders who need clear, data-driven insights for strategic decision-making.
 
-The telecom company is experiencing elevated churn rates, particularly among short-tenure and month-to-month customers.
+🚨 Business Problem
 
-Leadership lacks visibility into:
+The telecom company is experiencing elevated churn rates, especially among:
 
-Revenue exposure due to churn
+Short-tenure customers
+Month-to-month contract users
+❗ Key Challenges
 
-Behavioral drivers of customer attrition
+Leadership currently lacks visibility into:
 
-High-value customers at risk
+💰 Revenue exposure due to churn
+🔍 Behavioral drivers of customer attrition
+⭐ High-value customers at risk
+📊 Segment-level retention opportunities
 
-Segment-level retention opportunities
+📉 Without intervention, churn could significantly impact recurring revenue stability.
 
-Without intervention, churn may significantly impact recurring revenue.
-
-
-OBJECTIVES
-
-Quantify churn rate and revenue at risk
-
-Identify key churn drivers
-
-Segment high-risk customers
-
-Support strategic retention planning
-
-Deliver executive-ready insights
-
-
-TOOLS & TECHNOLOGIES
-
-Power BI (data modeling, DAX, dashboard design)
-
-Power Query (data transformation)
-
-Python (optional churn prediction modeling)
-
-Kaggle Telco Churn Dataset
-
-
-DATA OVERVIEW
+🎯 Objectives
+📊 Quantify churn rate and revenue at risk
+🔎 Identify key churn drivers
+👥 Segment high-risk customers
+🧠 Support strategic retention planning
+📈 Deliver executive-ready insights
+🛠️ Tools & Technologies
+📊 Power BI — Data modeling, DAX, dashboard design
+🔄 Power Query — Data transformation
+🐍 Python (optional) — Churn prediction modeling
+📁 Kaggle Telco Churn Dataset
+📂 Data Overview
 
 The dataset includes:
 
-Customer tenure
-
-Contract type
-
-Internet service
-
-Monthly charges
-
-Payment method
-
-Churn status
-
-
-Derived metrics include:
-
-Tenure buckets
-
-Average Revenue per User (ARPU)
-
-Revenue at Risk
-
-High-Risk Customer Segmentation
-
-
-
-DASHBOARD STRUCTURE
+👤 Customer tenure
+📑 Contract type
+🌐 Internet service
+💵 Monthly charges
+💳 Payment method
+🔁 Churn status
+➕ Derived Metrics
+⏳ Tenure buckets
+💰 Average Revenue per User (ARPU)
+⚠️ Revenue at Risk
+🎯 High-Risk Customer Segmentation
+📊 Dashboard Structure
 1️⃣ Executive Risk Overview
-
 Total customers
-
 Churn rate
-
 Revenue at risk
-
 ARPU
-
 High-risk segment revenue
-
 2️⃣ Churn Drivers Analysis
-
-Contract impact on churn
-
-Tenure lifecycle analysis
-
-Payment method risk
-
-Service-level patterns
-
+📑 Contract impact on churn
+⏳ Tenure lifecycle analysis
+💳 Payment method risk
+🌐 Service-level patterns
 3️⃣ Retention Opportunity Dashboard
-
-High-value customers at risk
-
-Revenue exposure by segment
-
-Strategic retention focus areas
-
-KEY INSIGHTS
-
-Month-to-month contracts show significantly higher churn rates
-
-Short-tenure customers represent the highest risk segment
-
-High monthly charge customers contribute disproportionately to revenue exposure
-
-Automatic payment adoption correlates with lower churn
-
-
-STRATEGIC RECOMMENDATIONS
-
-Incentivize long-term contract migration
-
-Target onboarding improvements for early-tenure customers
-
-Promote auto-payment adoption
-
-Prioritize retention efforts on high-ARPU customers
-
-
-ARCHITECTURE OVERVIEW
-
+⭐ High-value customers at risk
+💰 Revenue exposure by segment
+🎯 Strategic retention focus areas
+🔍 Key Insights
+📑 Month-to-month contracts show significantly higher churn rates
+⏳ Short-tenure customers are the highest risk segment
+💰 High monthly charge customers contribute disproportionately to revenue exposure
+💳 Automatic payment adoption correlates with lower churn
+🧠 Strategic Recommendations
+📑 Incentivize migration to long-term contracts
+🚀 Improve onboarding for early-tenure customers
+💳 Promote auto-payment adoption
+🎯 Focus retention efforts on high-ARPU customers
+🏗️ Architecture Overview
 Data Source
-↓
+   ↓
 Power Query Transformation
-↓
+   ↓
 Star Schema Data Model
-↓
+   ↓
 DAX KPI Layer
-↓
+   ↓
 Executive Dashboard
-↓
+   ↓
 Strategic Insights
 
-(Include architecture image here)
+📌 (Add architecture diagram image here if available)
 
-
-FUTURE ENHANCEMENTS
-
-Integrate churn probability model
-
-Automate monthly data refresh
-
-Deploy to Power BI Service
-
-Connect to SQL data warehouse
-
+🚀 Future Enhancements
+🤖 Integrate churn prediction model
+🔄 Automate monthly data refresh
+☁️ Deploy to Power BI Service
+🗄️ Connect to SQL data warehouse
